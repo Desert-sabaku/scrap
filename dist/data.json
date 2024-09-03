@@ -1,0 +1,182 @@
+[
+    {
+        "url": "/blog/dsa-ai-data-extraction/",
+        "title": "Zyte: Transforming AI web scraping for Digital Shelf companies",
+        "date": "August 23, 2024"
+    },
+    {
+        "url": "/blog/4-essential-scrapy-plugins/",
+        "title": "4 essential Scrapy plugins for building efficient and effective spiders",
+        "date": "August 15, 2024"
+    },
+    {
+        "url": "/blog/system-integrators-extract-big-data/",
+        "title": "The importance of data extraction for System Integrators",
+        "date": "August 2, 2024"
+    },
+    {
+        "url": "/blog/web-scraping-apis/",
+        "title": "How web scraping APIs are redefining scalable web scraping projects",
+        "date": "July 24, 2024"
+    },
+    {
+        "url": "/blog/digital-shelf-analytics-scrape-data-with-zyte-geolocation/",
+        "title": "Geo-blocking solutions for digital shelf analytics",
+        "date": "July 19, 2024"
+    },
+    {
+        "url": "/blog/scraping-food-delivery-data-from-any-geo-while-avoiding-ip-based-restrictions/",
+        "title": "Scraping food delivery data from any geo while avoiding IP-based restrictions",
+        "date": "July 19, 2024"
+    },
+    {
+        "url": "/blog/puppeteer-vs-selenium-the-web-scraping-tools/",
+        "title": "Puppeteer vs. Selenium for Web Scraping",
+        "date": "July 10, 2024"
+    },
+    {
+        "url": "/blog/bright-data-x-lawsuit/",
+        "title": "Judge dismisses X’s lawsuit against Bright Data (for now)",
+        "date": "July 3, 2024"
+    },
+    {
+        "url": "/blog/intercept-network-patterns-within-zyte-api/",
+        "title": "Now developers can intercept network patterns within Zyte API",
+        "date": "June 28, 2024"
+    },
+    {
+        "url": "/blog/web-scraping-in-python-ultimate-guide/",
+        "title": "Web Scraping in Python: Ultimate Guide",
+        "date": "June 28, 2024"
+    },
+    {
+        "url": "/blog/leverage-zyte-api-to-scrape-food-delivery-data/",
+        "title": "Leverage Zyte API to Scrape Food Delivery Data",
+        "date": "June 18, 2024"
+    },
+    {
+        "url": "/blog/voy-zeglin-web-scraping-community-interview/",
+        "title": "Voy Zeglin, DataMiners CEO: Pioneering web scraping technologies and building a developer community- Part 1",
+        "date": "June 17, 2024"
+    },
+    {
+        "url": "/blog/voy-zeglin-web-scraping-community-interview-part2/",
+        "title": "Voy Zeglin, DataMiners CEO: Pioneering web scraping technologies and building a developer community, Part 2",
+        "date": "June 10, 2024"
+    },
+    {
+        "url": "/blog/price-scraping-best-free-tool-to-scrape-prices/",
+        "title": "The best price scraping solutions with reliable data",
+        "date": "June 10, 2024"
+    },
+    {
+        "url": "/blog/extract-localized-data-with-zyte-ap-is-extended-geolocation/",
+        "title": "Extract localized data with Zyte API’s extended geolocation",
+        "date": "June 3, 2024"
+    },
+    {
+        "url": "/blog/how-to-bypass-ip-bans/",
+        "title": "How to Bypass IP Ban: Effective Strategies for Web Scraping",
+        "date": "May 15, 2024"
+    },
+    {
+        "url": "/blog/zyte-api-for-digital-shelf-analytics/",
+        "title": "From Data to Decisions: Transforming Digital Shelf Analytics with Zyte API",
+        "date": "April 30, 2024"
+    },
+    {
+        "url": "/blog/powerful-ban-management-zyte-api-scripting-api/",
+        "title": "Powerful ban management with Zyte API’s Scripting API",
+        "date": "April 25, 2024"
+    },
+    {
+        "url": "/blog/scrape-from-anywhere-with-geolocation-settings/",
+        "title": "Scrape from anywhere with Geolocation settings",
+        "date": "April 24, 2024"
+    },
+    {
+        "url": "/blog/the-most-complete-headless-browser-for-web-scraping/",
+        "title": "The Most Complete Headless Browser for Web Scraping",
+        "date": "April 24, 2024"
+    },
+    {
+        "url": "/blog/json-parsing-with-python/",
+        "title": "JSON Parsing with Python [Practical Guide]",
+        "date": "April 24, 2024"
+    },
+    {
+        "url": "/blog/crawling-infrastructure-modern-anti-bot-landscape/",
+        "title": "The trade-offs in crawling infrastructure in the modern anti-bot landscape",
+        "date": "April 10, 2024"
+    },
+    {
+        "url": "/blog/compliant-web-scraping-with-ai/",
+        "title": "Compliant Web Scraping with AI",
+        "date": "March 15, 2024"
+    },
+    {
+        "url": "/blog/llm-scaling-web-scraping/",
+        "title": "When LLMs aren't enough to scale web scraping",
+        "date": "March 12, 2024"
+    },
+    {
+        "url": "/blog/dsa-ai-data-extraction/",
+        "title": "Zyte: Transforming AI web scraping for Digital Shelf companies",
+        "date": "August 23, 2024"
+    },
+    {
+        "url": "/blog/4-essential-scrapy-plugins/",
+        "title": "4 essential Scrapy plugins for building efficient and effective spiders",
+        "date": "August 15, 2024"
+    },
+    {
+        "url": "/blog/system-integrators-extract-big-data/",
+        "title": "The importance of data extraction for System Integrators",
+        "date": "August 2, 2024"
+    },
+    {
+        "url": "/blog/web-scraping-apis/",
+        "title": "How web scraping APIs are redefining scalable web scraping projects",
+        "date": "July 24, 2024"
+    },
+    {
+        "url": "/blog/digital-shelf-analytics-scrape-data-with-zyte-geolocation/",
+        "title": "Geo-blocking solutions for digital shelf analytics",
+        "date": "July 19, 2024"
+    },
+    {
+        "url": "/blog/scraping-food-delivery-data-from-any-geo-while-avoiding-ip-based-restrictions/",
+        "title": "Scraping food delivery data from any geo while avoiding IP-based restrictions",
+        "date": "July 19, 2024"
+    },
+    {
+        "url": "/blog/puppeteer-vs-selenium-the-web-scraping-tools/",
+        "title": "Puppeteer vs. Selenium for Web Scraping",
+        "date": "July 10, 2024"
+    },
+    {
+        "url": "/blog/bright-data-x-lawsuit/",
+        "title": "Judge dismisses X’s lawsuit against Bright Data (for now)",
+        "date": "July 3, 2024"
+    },
+    {
+        "url": "/blog/intercept-network-patterns-within-zyte-api/",
+        "title": "Now developers can intercept network patterns within Zyte API",
+        "date": "June 28, 2024"
+    },
+    {
+        "url": "/blog/web-scraping-in-python-ultimate-guide/",
+        "title": "Web Scraping in Python: Ultimate Guide",
+        "date": "June 28, 2024"
+    },
+    {
+        "url": "/blog/leverage-zyte-api-to-scrape-food-delivery-data/",
+        "title": "Leverage Zyte API to Scrape Food Delivery Data",
+        "date": "June 18, 2024"
+    },
+    {
+        "url": "/blog/voy-zeglin-web-scraping-community-interview/",
+        "title": "Voy Zeglin, DataMiners CEO: Pioneering web scraping technologies and building a developer community- Part 1",
+        "date": "June 17, 2024"
+    }
+]
