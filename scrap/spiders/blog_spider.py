@@ -26,6 +26,7 @@ class BlogSpider(scrapy.Spider):
                 url=post.css(f"a.{css_title}::attr(href)").get().strip(),
                 title=post.css(f"a.{css_title}::text").get().strip(),
                 date=name_data_box[2].strip(),
+                auther=name_data_box[0].strip(),
             )
 
         # 再帰的にページングを辿るための処理

@@ -12,3 +12,4 @@ class Posts(scrapy.Item):
     url = scrapy.Field()
     title = scrapy.Field()
     date = scrapy.Field()
+    auther = scrapy.Field()
