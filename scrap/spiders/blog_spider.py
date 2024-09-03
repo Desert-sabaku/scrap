@@ -12,7 +12,6 @@ class BlogSpider(scrapy.Spider):
         """
         レスポンスに対するパース処理
         """
-        # css_grid_block = "Grid_grid__66sTK"
         css_card_block = "CardResource_card__uKf_5"
         css_title = "CardResource_link__4S2Jr"
         css_date_block = "CardResource_info__jdVxh"
@@ -20,10 +19,14 @@ class BlogSpider(scrapy.Spider):
 
         for post in response.css(f".{css_card_block}"):
             # items に定義した Post のオブジェクトを生成して次の処理へ渡す
+            name_data_box: list[str] = post.css(
+                f"div.{css_date_block} span::text"
+            ).getall()
             yield Posts(
                 url=post.css(f"a.{css_title}::attr(href)").get().strip(),
                 title=post.css(f"a.{css_title}::text").get().strip(),
-                date=post.css(f"div.{css_date_block} span::text").get().strip(),
+                date=name_data_box[2].strip(),
+                auther=name_data_box[0].strip(),
             )
 
         # 再帰的にページングを辿るための処理
