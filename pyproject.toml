@@ -1,16 +1,16 @@
 [tool.poetry]
-name = "scrap"
-version = "0.1.0"
-description = "Finding phishing sites"
 authors = ["MATUMOTO"]
+description = "Finding phishing sites"
 license = "MIT"
+name = "scrap"
+package-mode = false
 readme = "README.md"
+version = "0.1.0"
 
 [tool.poetry.dependencies]
 python = "^3.12"
 scrapy = "^2.11.2"
 
-
 [build-system]
-requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
