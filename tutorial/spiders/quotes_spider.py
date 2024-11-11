@@ -1,6 +1,5 @@
 import os
-from pathlib import Path
-from typing import Any, Optional
+from typing import Optional
 
 from scrapy import Spider
 from scrapy.http import Response
@@ -14,8 +13,8 @@ class QuoteSpider(Spider):
     ]
 
     # for mkdir dist. not necessary
-    def __init__(self, name: Optional[str] = None, **kwargs: Any):
-        super().__init__(name, **kwargs)
+    def __init__(self, name: Optional[str] = None):
+        super().__init__(name)
         os.makedirs("dist", exist_ok=True)
 
     # def start_requests(self):
@@ -28,7 +27,9 @@ class QuoteSpider(Spider):
     #         yield Request(url=url, callback=self.parse)
 
     def parse(self, response: Response):
-        PAGE = response.url.split("/")[-2]
-        FILENAME = f"dist/quotes-{PAGE}.html"
-        Path(FILENAME).write_text(response.text)
-        self.log(f"Saved file {FILENAME}")
+        for quote in response.css("div.quote"):
+            yield {
+                "text": quote.css("span.text::text").get(),
+                "author": quote.css("span small.author::text").get(),
+                "tags": quote.css("div.tags a.tag::text").getall(),
+            }
