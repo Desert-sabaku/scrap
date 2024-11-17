@@ -2,8 +2,12 @@
 
 `scrapy crawl scrap -a url="<いい感じのurl> -a depth="<適当な深さ> -o dist/<いい感じのファイル名>.jsonl"`
 
+e.g.: `scrapy crawl scrap -a url="https://qiita.com/" -a depth=0  -O dist/data.jsonl`
+
 動いてほしい（希望的観測）
 僕のとこでは動いた
+
+Tips: 形式は`jsonl`以外でもいい。`json`, `csv`, etc.
 
 # 環境構築
 
@@ -21,7 +25,7 @@
 * [Python](https://www.python.org/): Python is a programming language that lets you work quickly and integrate systems more effectively.
 * [Scrapy](https://scrapy.org/): A Fast and Powerful Scraping and Web Crawling Framework
 * [Poetry](https://python-poetry.org): Python packaging and dependency management made easy
-
+* etc.
 
 # ディレクトリの話
 ディレクトリはWindowsでいうフォルダーのこと。macOSやlinux distroではこちらの名称が使われる。
