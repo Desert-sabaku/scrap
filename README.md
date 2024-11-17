@@ -1,3 +1,8 @@
+# つかいかた
+
+`scrapy crawl scrap -a url="<url>" -a depth="<探索の深さ> -o dist/<いい感じのファイル名>.jsonl"`
+
+
 # ディレクトリの話
 ディレクトリはWindowsでいうフォルダーのこと。macOSやlinux distroではこちらの名称が使われる。
 
