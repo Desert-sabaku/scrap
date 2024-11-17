@@ -6,7 +6,11 @@
 import scrapy
 
 
+<<<<<<< HEAD:tutorial/items.py
 class TutorialItem(scrapy.Item):
+=======
+class ScrapItem(scrapy.Item):
+>>>>>>> dev:scrap/items.py
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
