@@ -1,2 +1,3 @@
 scrap/__pycache__/
 scrap/spiders/__pycache__/
+dist/*
