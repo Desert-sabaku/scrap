@@ -1,4 +1,5 @@
 # import datetime
+import datetime
 import os
 from typing import Any, Optional
 from urllib.parse import urlparse
@@ -14,6 +15,7 @@ class ScrapSpider(scrapy.Spider):
     max_depth = 2
     visited: set[str] = set()
 
+    # TODO: Embedding Output Formats
     # custom_settings = {
     #     "FEEDS": {
     #         "dist/%(name)s_%(time)s.json": {
@@ -42,20 +44,30 @@ class ScrapSpider(scrapy.Spider):
         if "depth" in kwargs:
             self.max_depth = int(kwargs["depth"])
 
-    def parse(self, response: Response, crrent_depth=0):
+    def parse(self, response: Response, current_depth=0):
         self.visited.add(response.url)
-        if crrent_depth >= self.max_depth:
+        if current_depth >= self.max_depth:
             return
 
+        links = []
         for anchor in response.xpath("//a"):  # type: ignore
             text = anchor.xpath("normalize-space(text())").get()
             link = response.urljoin(anchor.xpath("@href").get())
 
             if link not in self.visited:
-                yield {"text": text, "link": link}
+                links.append((text, link))
 
-                yield scrapy.Request(
-                    link,
-                    callback=self.parse,
-                    cb_kwargs={"crrent_depth": crrent_depth + 1},
-                )
+        for text, link in links:
+            yield {
+                "text": text,
+                "link": link,
+                "depth": current_depth,
+                "timestamp": datetime.datetime.now().isoformat(),
+            }
+
+        for _, link in links:
+            yield scrapy.Request(
+                link,
+                callback=self.parse,
+                cb_kwargs={"current_depth": current_depth + 1},
+            )
