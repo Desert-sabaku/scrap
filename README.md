@@ -27,17 +27,6 @@ Tips: 形式は`jsonl`以外でもいい。`json`, `csv`, etc.
 * [Poetry](https://python-poetry.org): Python packaging and dependency management made easy
 * etc.
 
-# ディレクトリの話
-ディレクトリはWindowsでいうフォルダーのこと。macOSやlinux distroではこちらの名称が使われる。
-
-# [コマンドライン](https://wa3.i-3-i.info/word11158.html)とディレクトリ構造
-始めは怖いと思うが慣れて。画像の左側に見える「/」区切りの文字列がパスと呼ばれるもので、ディレクトリの階層を表している。`cd`命令でディレクトリは自由に移動できる。
-
-![image](https://github.com/user-attachments/assets/ffe95ac3-5946-4ac2-8085-f591d76f4306)
-
-# GitHubからのclone
-自分のPC（いわゆる**ローカル環境**）に落としてくる作業。GitHubのサーバー（いわゆる**クラウド**の一種）からローカル環境にコードをコピーする。
-
 `git clone https://github.com/Desert-sabaku/scrap.git`
 
 `clone`したディレクトリ内で`git pull`を叩くとクラウドにアップされた変更がローカルにも反映される。
