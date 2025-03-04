@@ -30,6 +30,3 @@ Tips: 形式は`jsonl`以外でもいい。`json`, `csv`, etc.
 `git clone https://github.com/Desert-sabaku/scrap.git`
 
 `clone`したディレクトリ内で`git pull`を叩くとクラウドにアップされた変更がローカルにも反映される。
-
-# vscodeの話
-vscodeはエディター(editor)の一種。ググってインストールしてください。ただのエディターではなくいろいろ機能がついている。git管理が楽でいい。
